@@ -32,7 +32,14 @@ class PreviewViewController: UIViewController {
         imageView.image = image
         imageView.contentMode = .scaleAspectFit
         self.view.addSubview(imageView)
-        
+    }
+    
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
     
 }

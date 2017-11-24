@@ -28,6 +28,24 @@ class Minigame_Mode1{
     var promptInstructions = "Selecciona Imágenes con"
     var title = ""
 
+    
+    func updateGameStats(seconds: Int){
+        let realm = try! Realm()
+        
+        do {
+            
+            try realm.write {
+                currentMinigame.playTime += seconds
+                currentMinigame.numberOfGames += 1
+            }
+            
+        } catch let error as NSError {
+            print ("Loading Minigame was not possible \(error.userInfo)")
+        }
+        
+    }
+    
+    
     func clear(){
         currentMinigame = MiniGame()
         answers.removeAll()
@@ -184,6 +202,7 @@ class Minigame_Mode1{
             print ("Cannot load settings \(error.userInfo)")
         }
     }
+    
     
     private func toPictureArray(pictureList: List <Picture>) -> [Picture]{
         

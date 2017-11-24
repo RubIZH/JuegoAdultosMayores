@@ -16,6 +16,13 @@ class CategoryTableViewController: UITableViewController {
         super.viewDidLoad()
         self.title = "Categorías"
     }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

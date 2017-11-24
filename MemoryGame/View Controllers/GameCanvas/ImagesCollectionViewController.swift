@@ -52,6 +52,13 @@ class ImagesCollectionViewController: UICollectionViewController, UICollectionVi
         self.setupNavigationBar()
     }
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    override var shouldAutorotate: Bool {
+        return false
+    }
+    
     // MARK: UICollectionView DataSource and Delegate
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -139,9 +146,9 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
         collectionView!.collectionViewLayout = layout
     }
     
-    
+
     private func loadGame (){
-        
+        TimerService.sharedInstance.resetTimer()
         var setup = 0
         switch gameMode{
             case 1:
@@ -181,16 +188,23 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
     func monitorGameState(){
         
         switch gameMode{
-        case 1: if Minigame_Mode1.sharedInstance.hasWon {showStandardDialog()}
-        case 2: if Minigame_Mode2.sharedInstance.hasWon {showStandardDialog()}
+        case 1: if Minigame_Mode1.sharedInstance.hasWon {
+            showStandardDialog()
+            Minigame_Mode1.sharedInstance.updateGameStats(seconds: TimerService.sharedInstance.timerCounter)
+            }
+        case 2: if Minigame_Mode2.sharedInstance.hasWon {
+            showStandardDialog()
+            Minigame_Mode1.sharedInstance.updateGameStats(seconds: TimerService.sharedInstance.timerCounter)
+            }
         default: print ("Loading winning conditions was not possible")
         }
 
     }
     
     func showStandardDialog(animated: Bool = true) {
+        TimerService.sharedInstance.stopTimer()
         let title = "¡Éxito, completaste la partida!"
-        let message = "¿Deseas continuar?"
+        let message = "¿Deseas continuar?\nTiempo: \(TimerService.sharedInstance.timeString())"
         let popup = PopupDialog(title: title, message: message, buttonAlignment: .vertical, transitionStyle: .zoomIn, gestureDismissal: false) {
         }
         let buttonOne = CancelButton(title: "Salir") {
@@ -205,14 +219,16 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
     }
     
     func showPauseDialog(animated: Bool = true) {
+        TimerService.sharedInstance.stopTimer()
         let title = "¡Pausa!"
-        let message = "¿Deseas continuar?"
+        let message = "¿Deseas continuar?\nTiempo: \(TimerService.sharedInstance.timeString())"
         let popup = PopupDialog(title: title, message: message, buttonAlignment: .vertical, transitionStyle: .bounceDown, gestureDismissal: true) {
         }
         let buttonOne = CancelButton(title: "Salir") {
             self.exit()
         }
         let buttonTwo = DefaultButton(title: "Continuar") {
+            TimerService.sharedInstance.startTimer()
         }
         popup.addButtons([buttonOne, buttonTwo])
         

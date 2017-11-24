@@ -46,7 +46,7 @@ class MinigameDataAcessService{
     }
     
     func getMinigameCategories(minigame: MiniGame) -> [Category]{
-        var fetchedMinigame = self.fetchMinigame(withName: minigame.name)
+        let fetchedMinigame = self.fetchMinigame(withName: minigame.name)
         var categories = [Category]()
         
         for category in fetchedMinigame.categories{

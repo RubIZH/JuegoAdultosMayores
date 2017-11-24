@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina4_0" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,18 +8,13 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HelveticaNeue.ttc">
-            <string>HelveticaNeue</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Configuración-->
         <scene sceneID="Moe-Nw-F0P">
             <objects>
                 <tableViewController id="WWm-yo-BaS" customClass="SettingsTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ti7-NI-WX1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -104,7 +99,7 @@
             <objects>
                 <tableViewController id="bGM-ZE-BOF" customClass="MiniGamesTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qsr-7M-oFy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -135,7 +130,7 @@
             <objects>
                 <tableViewController id="Zq1-Pn-H5q" customClass="CategoryTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ULb-fH-qmH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -177,7 +172,7 @@
                         <viewControllerLayoutGuide type="bottom" id="s8c-ba-0wK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3KX-bB-1fd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de Imágenes:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bc-0b-Kpz">
@@ -226,74 +221,65 @@
                         <viewControllerLayoutGuide type="bottom" id="IdT-0B-Yf1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AVl-5y-WbF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="hv6-dt-Jrj">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hv6-dt-Jrj">
                                 <rect key="frame" x="26" y="20" width="262" height="223"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="223" id="E3x-Kq-wth"/>
-                                </constraints>
                                 <string key="text">Minijuegos Cognitivos ha sido desarrollado por estudiantes del Tecnológico de Monterrey
 durante el semestre Agosto Diciembre de 2017, como parte del curso Desarrollo de
 Aplicaciones para Dispositivos Móviles y asesorados por la maestra Yolanda Martínez
 Treviño.</string>
                                 <color key="textColor" white="0.22710336540000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desarollado por:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55x-Te-GhI">
-                                <rect key="frame" x="26" y="187" width="126" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="uCX-vg-Sn6"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rubén Ibrahim Zuzuarregui Hidalgo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGb-n9-Tph">
+                                <rect key="frame" x="16" y="233" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.22710336540000001" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nWy-07-Les">
-                                <rect key="frame" x="26" y="386" width="268" height="61"/>
+                                <rect key="frame" x="26" y="262" width="268" height="85"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="61" id="Tma-jE-SMD"/>
-                                </constraints>
                                 <string key="text">Minijuegos Cognitivos se distribuye como está de manera gratuita y se prohíbe su
-distribución y uso con fines de lucro</string>
+distribución y uso con fines de lucro.</string>
                                 <color key="textColor" white="0.22710336540000001" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rubén Ibrahim Zuzuarregui Hidalgo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGb-n9-Tph">
-                                <rect key="frame" x="26" y="208" width="216" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="6WM-Mg-7Kp"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desarollado por:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55x-Te-GhI">
+                                <rect key="frame" x="16" y="216" width="272" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.22710336540000001" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SGb-n9-Tph" firstAttribute="leading" secondItem="nWy-07-Les" secondAttribute="leading" id="3D5-VY-HFo"/>
-                            <constraint firstItem="55x-Te-GhI" firstAttribute="top" secondItem="rL2-QN-Qfr" secondAttribute="bottom" constant="187" id="BQl-Hz-Ulp"/>
-                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="top" secondItem="AVl-5y-WbF" secondAttribute="top" constant="20" symbolic="YES" id="G6r-7e-T84"/>
-                            <constraint firstItem="SGb-n9-Tph" firstAttribute="top" secondItem="55x-Te-GhI" secondAttribute="bottom" id="IoJ-61-uTD"/>
-                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="leading" secondItem="SGb-n9-Tph" secondAttribute="leading" id="Jqt-aH-Ne7"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="SGb-n9-Tph" secondAttribute="trailing" constant="62" id="R0d-3z-4he"/>
-                            <constraint firstItem="nWy-07-Les" firstAttribute="centerX" secondItem="AVl-5y-WbF" secondAttribute="centerX" id="Xpl-9X-oQT"/>
-                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="leading" secondItem="AVl-5y-WbF" secondAttribute="leadingMargin" constant="10" id="m6S-he-d2u"/>
-                            <constraint firstItem="55x-Te-GhI" firstAttribute="leading" secondItem="SGb-n9-Tph" secondAttribute="leading" id="oR5-Af-Dzi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="hv6-dt-Jrj" secondAttribute="trailing" constant="16" id="x2W-c9-0S2"/>
-                            <constraint firstItem="IdT-0B-Yf1" firstAttribute="top" secondItem="nWy-07-Les" secondAttribute="bottom" constant="8" symbolic="YES" id="zGE-ZC-nf3"/>
+                            <constraint firstItem="55x-Te-GhI" firstAttribute="leading" secondItem="AVl-5y-WbF" secondAttribute="leadingMargin" id="1gI-ua-8CY"/>
+                            <constraint firstItem="nWy-07-Les" firstAttribute="top" secondItem="hv6-dt-Jrj" secondAttribute="bottom" constant="19" id="4rU-8Y-4qV"/>
+                            <constraint firstItem="55x-Te-GhI" firstAttribute="trailing" secondItem="SGb-n9-Tph" secondAttribute="trailing" id="4zs-JY-JAo"/>
+                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="top" secondItem="AVl-5y-WbF" secondAttribute="top" constant="20" symbolic="YES" id="7OI-rg-3e0"/>
+                            <constraint firstItem="nWy-07-Les" firstAttribute="top" secondItem="SGb-n9-Tph" secondAttribute="bottom" constant="8" symbolic="YES" id="BX0-T5-DCQ"/>
+                            <constraint firstItem="nWy-07-Les" firstAttribute="centerX" secondItem="AVl-5y-WbF" secondAttribute="centerX" id="C5M-LB-oEf"/>
+                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="leading" secondItem="nWy-07-Les" secondAttribute="leading" id="OLO-Ke-Zbi"/>
+                            <constraint firstAttribute="bottom" secondItem="nWy-07-Les" secondAttribute="bottom" constant="20" symbolic="YES" id="bIT-Jn-3Fz"/>
+                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="leading" secondItem="AVl-5y-WbF" secondAttribute="leadingMargin" constant="10" id="chv-xB-Jb1"/>
+                            <constraint firstItem="nWy-07-Les" firstAttribute="top" secondItem="55x-Te-GhI" secondAttribute="bottom" constant="25" id="e0O-x5-6lk"/>
+                            <constraint firstItem="55x-Te-GhI" firstAttribute="top" secondItem="rL2-QN-Qfr" secondAttribute="bottom" constant="216" id="h1r-q0-t7A"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hv6-dt-Jrj" secondAttribute="trailing" constant="16" id="ney-4K-dx0"/>
+                            <constraint firstItem="55x-Te-GhI" firstAttribute="leading" secondItem="SGb-n9-Tph" secondAttribute="leading" id="sIm-BE-gEZ"/>
+                            <constraint firstItem="hv6-dt-Jrj" firstAttribute="trailing" secondItem="55x-Te-GhI" secondAttribute="trailing" id="zLQ-6h-JXq"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Acerca de Nosotros" id="ojj-yg-SQO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzp-gz-JuK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3333.5999999999999" y="2077.5112443778112"/>
+            <point key="canvasLocation" x="3331.875" y="2076.25"/>
         </scene>
         <!--Ajustes-->
         <scene sceneID="zdY-um-L4z">
@@ -342,7 +328,7 @@ distribución y uso con fines de lucro</string>
             <objects>
                 <collectionViewController id="q7f-9P-dei" customClass="ImagesCollectionViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" delaysContentTouches="NO" dataMode="prototypes" id="63F-X9-h7q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="27" minimumInteritemSpacing="0.0" id="iax-F2-puX">
@@ -392,7 +378,7 @@ distribución y uso con fines de lucro</string>
                         <viewControllerLayoutGuide type="bottom" id="xxN-oT-EOf"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ieA-va-7dT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -408,10 +394,16 @@ distribución y uso con fines de lucro</string>
         <scene sceneID="GlK-9B-Yi6">
             <objects>
                 <navigationController storyboardIdentifier="gameCanvas" useStoryboardIdentifierAsRestorationIdentifier="YES" id="TaJ-J0-cej" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" backIndicatorImage="brocolli.jpg" id="gKD-Tz-3vs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="gKD-Tz-3vs">
                         <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        </textAttributes>
                     </navigationBar>
                     <connections>
                         <segue destination="q7f-9P-dei" kind="relationship" relationship="rootViewController" id="lXf-Ja-5JD"/>
@@ -426,7 +418,7 @@ distribución y uso con fines de lucro</string>
             <objects>
                 <tableViewController id="M0w-Si-qA1" customClass="MinigameDetailTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0We-sg-77q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -455,7 +447,7 @@ distribución y uso con fines de lucro</string>
             <objects>
                 <collectionViewController id="yTh-ZB-3eq" customClass="CategoryDetailCollectionViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="vjA-7Q-lzr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="6" minimumInteritemSpacing="6" id="mAA-ev-fO7">
@@ -555,11 +547,11 @@ distribución y uso con fines de lucro</string>
                         <viewControllerLayoutGuide type="bottom" id="gh0-mH-wN3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2kh-Nr-8Tx" customClass="GradientView" customModule="MemoryGame" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ad-ED-lIw">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98154796850000003" blue="0.96438705759999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H4J-dg-9AE" customClass="UPCarouselFlowLayout" customModule="MemoryGame" customModuleProvider="target">
@@ -578,7 +570,7 @@ distribución y uso con fines de lucro</string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarouselCollectionViewCell" id="mVq-Rl-JRF" customClass="CarouselCollectionViewCell" customModule="MemoryGame" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="-36.5" width="300" height="592"/>
+                                        <rect key="frame" x="0.0" y="-80.5" width="300" height="592"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="592"/>
@@ -651,14 +643,13 @@ distribución y uso con fines de lucro</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0gc-HM-T5k" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903.75" y="-1050"/>
+            <point key="canvasLocation" x="1048" y="-334"/>
         </scene>
     </scenes>
     <resources>
         <image name="Attention" width="30" height="30"/>
         <image name="Principal" width="30" height="30"/>
         <image name="Settings" width="30" height="30"/>
-        <image name="brocolli.jpg" width="1067" height="1067"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="N7t-Fl-HPy"/>

@@ -13,7 +13,8 @@ import RealmSwift
 class MiniGame: Object {
     
     @objc dynamic var name = ""
-    @objc dynamic var numberOfPictures = 0
+    @objc dynamic var numberOfGames = 0
+    @objc dynamic var playTime = 0
     
     let categories = List <Category>()
     

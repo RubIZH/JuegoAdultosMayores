@@ -25,7 +25,21 @@ class Minigame_Mode2 {
     let title = "Categoría"
     
     
-    
+    func updateGameStats(seconds: Int){
+        let realm = try! Realm()
+        
+        do {
+            
+            try realm.write {
+                currentMinigame.playTime += seconds
+                currentMinigame.numberOfGames += 1
+            }
+            
+        } catch let error as NSError {
+            print ("Loading Minigame was not possible \(error.userInfo)")
+        }
+        
+    }
 
     func clear (){
         currentMinigame = nil
@@ -116,7 +130,7 @@ class Minigame_Mode2 {
             possibleValues.remove(at: randomValue)
             let pictureData = category.pictures[index].pictureData
             
-            var answer = Answer(image: UIImage(data: pictureData! as Data)!, isCorrect: false)
+            let answer = Answer(image: UIImage(data: pictureData! as Data)!, isCorrect: false)
             answer.category = category
             answers.append(answer)
         }

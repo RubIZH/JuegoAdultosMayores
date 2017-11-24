@@ -55,6 +55,7 @@
 		455642131FB53CE6005765D2 /* MinigameDataAcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455642121FB53CE6005765D2 /* MinigameDataAcessService.swift */; };
 		455642171FB7962D005765D2 /* MinigameDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455642161FB7962D005765D2 /* MinigameDetailTableViewController.swift */; };
 		4580ABC91F9D820300E35B75 /* Pods_MemoryGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4580ABCA1F9D820300E35B75 /* Pods_MemoryGame.framework */; };
+		45A2BCC01FC7E9C300C672CB /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2BCBF1FC7E9C300C672CB /* TimerService.swift */; };
 		45D668171F9EB73600FE3D95 /* GameMasterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D668161F9EB73600FE3D95 /* GameMasterService.swift */; };
 		45D668191F9EF0B400FE3D95 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D668181F9EF0B400FE3D95 /* Answer.swift */; };
 		45D6681B1F9FB62800FE3D95 /* Minigame_Mode1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6681A1F9FB62800FE3D95 /* Minigame_Mode1.swift */; };
@@ -150,6 +151,7 @@
 		455642161FB7962D005765D2 /* MinigameDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameDetailTableViewController.swift; sourceTree = "<group>"; };
 		4580ABCA1F9D820300E35B75 /* Pods_MemoryGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MemoryGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4580ABCC1F9D820600E35B75 /* PeekPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PeekPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A2BCBF1FC7E9C300C672CB /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
 		45D668161F9EB73600FE3D95 /* GameMasterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMasterService.swift; sourceTree = "<group>"; };
 		45D668181F9EF0B400FE3D95 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		45D6681A1F9FB62800FE3D95 /* Minigame_Mode1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Minigame_Mode1.swift; sourceTree = "<group>"; };
@@ -329,6 +331,7 @@
 				45D6681C1F9FD84100FE3D95 /* Extensions.swift */,
 				45D84B7F1FAF38520016592D /* CategoryDataAcessService.swift */,
 				455642121FB53CE6005765D2 /* MinigameDataAcessService.swift */,
+				45A2BCBF1FC7E9C300C672CB /* TimerService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -505,7 +508,7 @@
 				TargetAttributes = {
 					45F57FA31F9D72BB009AAECB = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -673,6 +676,7 @@
 				45DFD29A1FBEBE030095E97A /* UPCarouselFlowLayout.swift in Sources */,
 				455642111FB53C84005765D2 /* MiniGamesTableViewController.swift in Sources */,
 				455642131FB53CE6005765D2 /* MinigameDataAcessService.swift in Sources */,
+				45A2BCC01FC7E9C300C672CB /* TimerService.swift in Sources */,
 				45060C8B1F9D8DE500A41E02 /* ImageCollectionViewCell.swift in Sources */,
 				45DFD2881FBEBB750095E97A /* ViewController.swift in Sources */,
 				45060C871F9D8CE500A41E02 /* ImagesCollectionViewController.swift in Sources */,
@@ -830,13 +834,14 @@
 			baseConfigurationReference = 19DA6C1559659417BEB77278 /* Pods-MemoryGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DAFU744LYN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MemoryGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Celdas.a.la.Medida.ruben.hidalgo.MemoryGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Itesm.Minijuegos.Cognitivos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -847,13 +852,14 @@
 			baseConfigurationReference = 6DBA3EB2177595E432F077D0 /* Pods-MemoryGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DAFU744LYN;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MemoryGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Celdas.a.la.Medida.ruben.hidalgo.MemoryGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Itesm.Minijuegos.Cognitivos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

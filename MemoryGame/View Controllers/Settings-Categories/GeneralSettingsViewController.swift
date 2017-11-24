@@ -17,13 +17,18 @@ class GeneralSettingsViewController: UIViewController, UIPickerViewDelegate, UIP
     var settings = SettingsModel()
     
     override func viewDidLoad() {
-
         super.viewDidLoad()
         pickerView.delegate = self
         pickerView.dataSource = self
         self.loadSettings()
         selected = settings.numberOfPicturesForDisplay
-
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.portrait
+    }
+    override var shouldAutorotate: Bool {
+        return false
     }
 
     override func didReceiveMemoryWarning() {
@@ -54,6 +59,13 @@ class GeneralSettingsViewController: UIViewController, UIPickerViewDelegate, UIP
             
         } catch let error as NSError {
             print ("Cannot load settings \(error.userInfo)")
+        }
+        
+        switch settings.numberOfPicturesForDisplay{
+        case 4: pickerView.selectRow(0, inComponent: 0, animated: true)
+        case 6: pickerView.selectRow(1, inComponent: 0, animated: true)
+        case 12: pickerView.selectRow(2, inComponent: 0, animated: true)
+        default: print ("Loading options wasn't possible")
         }
         
     }
