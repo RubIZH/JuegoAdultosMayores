@@ -133,26 +133,10 @@
 		45EA840B1FC849E400A529F5 /* platillo7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EA83B01FC849E400A529F5 /* platillo7.jpg */; };
 		45EA840C1FC849E400A529F5 /* platillo8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EA83B11FC849E400A529F5 /* platillo8.jpg */; };
 		45EA840D1FC849E400A529F5 /* platillo9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EA83B21FC849E400A529F5 /* platillo9.jpg */; };
-		45EEE6181FA30F4700F6BCD0 /* pineapple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6111FA30F4600F6BCD0 /* pineapple.jpg */; };
-		45EEE6191FA30F4700F6BCD0 /* watermelon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6121FA30F4600F6BCD0 /* watermelon.jpg */; };
-		45EEE61A1FA30F4700F6BCD0 /* peach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6131FA30F4700F6BCD0 /* peach.jpg */; };
-		45EEE61B1FA30F4700F6BCD0 /* kiwi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6141FA30F4700F6BCD0 /* kiwi.jpg */; };
-		45EEE61C1FA30F4700F6BCD0 /* strawberry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6151FA30F4700F6BCD0 /* strawberry.jpg */; };
-		45EEE61D1FA30F4700F6BCD0 /* grapes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6161FA30F4700F6BCD0 /* grapes.jpg */; };
-		45EEE61E1FA30F4700F6BCD0 /* banana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45EEE6171FA30F4700F6BCD0 /* banana.jpg */; };
 		45F57FA81F9D72BB009AAECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F57FA71F9D72BB009AAECB /* AppDelegate.swift */; };
 		45F57FAF1F9D72BB009AAECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F57FAD1F9D72BB009AAECB /* Main.storyboard */; };
 		45F57FB11F9D72BB009AAECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F57FB01F9D72BB009AAECB /* Assets.xcassets */; };
 		45F57FB41F9D72BB009AAECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F57FB21F9D72BB009AAECB /* LaunchScreen.storyboard */; };
-		45F618831FA26CBA00686BDB /* sparragus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187A1FA26CB900686BDB /* sparragus.jpg */; };
-		45F618841FA26CBA00686BDB /* celery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187B1FA26CB900686BDB /* celery.jpg */; };
-		45F618851FA26CBA00686BDB /* onion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187C1FA26CB900686BDB /* onion.jpg */; };
-		45F618861FA26CBA00686BDB /* pepper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187D1FA26CB900686BDB /* pepper.jpg */; };
-		45F618871FA26CBA00686BDB /* brocolli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187E1FA26CB900686BDB /* brocolli.jpg */; };
-		45F618881FA26CBA00686BDB /* cawllioflower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6187F1FA26CB900686BDB /* cawllioflower.jpg */; };
-		45F618891FA26CBA00686BDB /* corn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F618801FA26CB900686BDB /* corn.jpg */; };
-		45F6188A1FA26CBA00686BDB /* peas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F618811FA26CBA00686BDB /* peas.jpg */; };
-		45F6188D1FA26D0300686BDB /* beet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45F6188C1FA26D0300686BDB /* beet.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -285,28 +269,12 @@
 		45EA83B01FC849E400A529F5 /* platillo7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platillo7.jpg; sourceTree = "<group>"; };
 		45EA83B11FC849E400A529F5 /* platillo8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platillo8.jpg; sourceTree = "<group>"; };
 		45EA83B21FC849E400A529F5 /* platillo9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platillo9.jpg; sourceTree = "<group>"; };
-		45EEE6111FA30F4600F6BCD0 /* pineapple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pineapple.jpg; path = ../../../../../../../../Desktop/Fuits/pineapple.jpg; sourceTree = "<group>"; };
-		45EEE6121FA30F4600F6BCD0 /* watermelon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = watermelon.jpg; path = ../../../../../../../../Desktop/Fuits/watermelon.jpg; sourceTree = "<group>"; };
-		45EEE6131FA30F4700F6BCD0 /* peach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = peach.jpg; path = ../../../../../../../../Desktop/Fuits/peach.jpg; sourceTree = "<group>"; };
-		45EEE6141FA30F4700F6BCD0 /* kiwi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = kiwi.jpg; path = ../../../../../../../../Desktop/Fuits/kiwi.jpg; sourceTree = "<group>"; };
-		45EEE6151FA30F4700F6BCD0 /* strawberry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = strawberry.jpg; path = ../../../../../../../../Desktop/Fuits/strawberry.jpg; sourceTree = "<group>"; };
-		45EEE6161FA30F4700F6BCD0 /* grapes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = grapes.jpg; path = ../../../../../../../../Desktop/Fuits/grapes.jpg; sourceTree = "<group>"; };
-		45EEE6171FA30F4700F6BCD0 /* banana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banana.jpg; path = ../../../../../../../../Desktop/Fuits/banana.jpg; sourceTree = "<group>"; };
 		45F57FA41F9D72BB009AAECB /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F57FA71F9D72BB009AAECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45F57FAE1F9D72BB009AAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45F57FB01F9D72BB009AAECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45F57FB31F9D72BB009AAECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F57FB51F9D72BB009AAECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45F6187A1FA26CB900686BDB /* sparragus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sparragus.jpg; path = ../../../../../../../../Desktop/Vegetables/sparragus.jpg; sourceTree = "<group>"; };
-		45F6187B1FA26CB900686BDB /* celery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = celery.jpg; path = ../../../../../../../../Desktop/Vegetables/celery.jpg; sourceTree = "<group>"; };
-		45F6187C1FA26CB900686BDB /* onion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = onion.jpg; path = ../../../../../../../../Desktop/Vegetables/onion.jpg; sourceTree = "<group>"; };
-		45F6187D1FA26CB900686BDB /* pepper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pepper.jpg; path = ../../../../../../../../Desktop/Vegetables/pepper.jpg; sourceTree = "<group>"; };
-		45F6187E1FA26CB900686BDB /* brocolli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = brocolli.jpg; path = ../../../../../../../../Desktop/Vegetables/brocolli.jpg; sourceTree = "<group>"; };
-		45F6187F1FA26CB900686BDB /* cawllioflower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cawllioflower.jpg; path = ../../../../../../../../Desktop/Vegetables/cawllioflower.jpg; sourceTree = "<group>"; };
-		45F618801FA26CB900686BDB /* corn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = corn.jpg; path = ../../../../../../../../Desktop/Vegetables/corn.jpg; sourceTree = "<group>"; };
-		45F618811FA26CBA00686BDB /* peas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = peas.jpg; path = ../../../../../../../../Desktop/Vegetables/peas.jpg; sourceTree = "<group>"; };
-		45F6188C1FA26D0300686BDB /* beet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beet.jpg; path = ../../../../../../../../Desktop/Vegetables/beet.jpg; sourceTree = "<group>"; };
 		6DBA3EB2177595E432F077D0 /* Pods-MemoryGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MemoryGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-MemoryGame/Pods-MemoryGame.release.xcconfig"; sourceTree = "<group>"; };
 		F3EE79C628AFB8602764A621 /* Pods_MemoryGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MemoryGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -412,29 +380,6 @@
 				45DFD2731FBC35B50095E97A /* SettingsModel.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		45DFD6E01F9E39E9004BDD90 /* DemoPictures */ = {
-			isa = PBXGroup;
-			children = (
-				45EEE6171FA30F4700F6BCD0 /* banana.jpg */,
-				45EEE6161FA30F4700F6BCD0 /* grapes.jpg */,
-				45EEE6141FA30F4700F6BCD0 /* kiwi.jpg */,
-				45EEE6131FA30F4700F6BCD0 /* peach.jpg */,
-				45EEE6111FA30F4600F6BCD0 /* pineapple.jpg */,
-				45EEE6151FA30F4700F6BCD0 /* strawberry.jpg */,
-				45EEE6121FA30F4600F6BCD0 /* watermelon.jpg */,
-				45F6188C1FA26D0300686BDB /* beet.jpg */,
-				45F6187E1FA26CB900686BDB /* brocolli.jpg */,
-				45F6187F1FA26CB900686BDB /* cawllioflower.jpg */,
-				45F6187B1FA26CB900686BDB /* celery.jpg */,
-				45F618801FA26CB900686BDB /* corn.jpg */,
-				45F6187C1FA26CB900686BDB /* onion.jpg */,
-				45F6187D1FA26CB900686BDB /* pepper.jpg */,
-				45F618811FA26CBA00686BDB /* peas.jpg */,
-				45F6187A1FA26CB900686BDB /* sparragus.jpg */,
-			);
-			path = DemoPictures;
 			sourceTree = "<group>";
 		};
 		45EA83511FC849E400A529F5 /* Pictures */ = {
@@ -606,7 +551,6 @@
 			isa = PBXGroup;
 			children = (
 				45EA83511FC849E400A529F5 /* Pictures */,
-				45DFD6E01F9E39E9004BDD90 /* DemoPictures */,
 				45F57FBB1F9D7751009AAECB /* View Controllers */,
 				45DFD6D11F9E3332004BDD90 /* Model */,
 				456BB8B71F9E74CE00926546 /* Services */,
@@ -673,7 +617,7 @@
 				TargetAttributes = {
 					45F57FA31F9D72BB009AAECB = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -712,14 +656,10 @@
 				45EA83E61FC849E400A529F5 /* historicos2.jpg in Resources */,
 				45EA83EE1FC849E400A529F5 /* paisaje1.jpg in Resources */,
 				45EA83E71FC849E400A529F5 /* historicos3.jpg in Resources */,
-				45F618861FA26CBA00686BDB /* pepper.jpg in Resources */,
 				45EA83BC1FC849E400A529F5 /* animales3.jpg in Resources */,
 				45EA83FE1FC849E400A529F5 /* platillo1.jpg in Resources */,
 				45EA83F81FC849E400A529F5 /* paisaje4.jpg in Resources */,
-				45F618891FA26CBA00686BDB /* corn.jpg in Resources */,
 				45EA83B31FC849E400A529F5 /* animales1.jpg in Resources */,
-				45F618871FA26CBA00686BDB /* brocolli.jpg in Resources */,
-				45F618831FA26CBA00686BDB /* sparragus.jpg in Resources */,
 				45EA83FD1FC849E400A529F5 /* paisaje9.jpg in Resources */,
 				45EA83C21FC849E400A529F5 /* animales9.jpg in Resources */,
 				45EA84021FC849E400A529F5 /* platillo13.jpg in Resources */,
@@ -727,14 +667,11 @@
 				45EA83B91FC849E400A529F5 /* animales15.jpg in Resources */,
 				45EA83CF1FC849E400A529F5 /* banderas10.jpg in Resources */,
 				45EA83DD1FC849E400A529F5 /* banderas9.jpg in Resources */,
-				45EEE6181FA30F4700F6BCD0 /* pineapple.jpg in Resources */,
-				45F618851FA26CBA00686BDB /* onion.jpg in Resources */,
 				45EA83CD1FC849E400A529F5 /* art9.jpg in Resources */,
 				45EA83F21FC849E400A529F5 /* paisaje13.jpg in Resources */,
 				45EA83D51FC849E400A529F5 /* banderas16.jpg in Resources */,
 				45EA84031FC849E400A529F5 /* platillo14.jpg in Resources */,
 				45EA84091FC849E400A529F5 /* platillo5.jpg in Resources */,
-				45F618881FA26CBA00686BDB /* cawllioflower.jpg in Resources */,
 				45EA83C61FC849E400A529F5 /* art2.jpg in Resources */,
 				45EA83EF1FC849E400A529F5 /* paisaje10.jpg in Resources */,
 				45EA83DA1FC849E400A529F5 /* banderas6.jpg in Resources */,
@@ -746,7 +683,6 @@
 				45EA83E81FC849E400A529F5 /* historicos4.jpg in Resources */,
 				45EA83EB1FC849E400A529F5 /* historicos7.jpg in Resources */,
 				45EA83F41FC849E400A529F5 /* paisaje15.jpg in Resources */,
-				45EEE61E1FA30F4700F6BCD0 /* banana.jpg in Resources */,
 				45EA83BA1FC849E400A529F5 /* animales16.jpg in Resources */,
 				45EA83D31FC849E400A529F5 /* banderas14.jpg in Resources */,
 				45EA83C01FC849E400A529F5 /* animales7.jpg in Resources */,
@@ -765,28 +701,21 @@
 				45EA84011FC849E400A529F5 /* platillo12.jpg in Resources */,
 				45EA84041FC849E400A529F5 /* platillo15.jpg in Resources */,
 				45EA83EA1FC849E400A529F5 /* historicos6.jpg in Resources */,
-				45F6188D1FA26D0300686BDB /* beet.jpg in Resources */,
-				45F6188A1FA26CBA00686BDB /* peas.jpg in Resources */,
 				45EA83CC1FC849E400A529F5 /* art8.jpg in Resources */,
 				45EA83CA1FC849E400A529F5 /* art6.jpg in Resources */,
 				45EA83DF1FC849E400A529F5 /* historicos10.jpg in Resources */,
 				45EA83DB1FC849E400A529F5 /* banderas7.jpg in Resources */,
 				45EA83F91FC849E400A529F5 /* paisaje5.jpg in Resources */,
-				45EEE61C1FA30F4700F6BCD0 /* strawberry.jpg in Resources */,
 				45EA83FA1FC849E400A529F5 /* paisaje6.jpg in Resources */,
 				45EA84071FC849E400A529F5 /* platillo3.jpg in Resources */,
 				45F57FB11F9D72BB009AAECB /* Assets.xcassets in Resources */,
 				45EA83D11FC849E400A529F5 /* banderas12.jpg in Resources */,
 				45EA83CB1FC849E400A529F5 /* art7.jpg in Resources */,
-				45EEE61B1FA30F4700F6BCD0 /* kiwi.jpg in Resources */,
 				45EA83B61FC849E400A529F5 /* animales12.jpg in Resources */,
 				45EA83DC1FC849E400A529F5 /* banderas8.jpg in Resources */,
-				45EEE61A1FA30F4700F6BCD0 /* peach.jpg in Resources */,
 				45EA83D71FC849E400A529F5 /* banderas3.jpg in Resources */,
-				45F618841FA26CBA00686BDB /* celery.jpg in Resources */,
 				45EA83BE1FC849E400A529F5 /* animales5.jpg in Resources */,
 				45EA83DE1FC849E400A529F5 /* historicos1.jpg in Resources */,
-				45EEE61D1FA30F4700F6BCD0 /* grapes.jpg in Resources */,
 				45EA83F51FC849E400A529F5 /* paisaje16.jpg in Resources */,
 				45EA83C11FC849E400A529F5 /* animales8.jpg in Resources */,
 				45EA83E21FC849E400A529F5 /* historicos13.jpg in Resources */,
@@ -800,7 +729,6 @@
 				45EA83F31FC849E400A529F5 /* paisaje14.jpg in Resources */,
 				45EA840B1FC849E400A529F5 /* platillo7.jpg in Resources */,
 				45EA83C71FC849E400A529F5 /* art3.jpg in Resources */,
-				45EEE6191FA30F4700F6BCD0 /* watermelon.jpg in Resources */,
 				45EA84061FC849E400A529F5 /* platillo2.jpg in Resources */,
 				45EA83FC1FC849E400A529F5 /* paisaje8.jpg in Resources */,
 				45EA83EC1FC849E400A529F5 /* historicos8.jpg in Resources */,
@@ -1054,8 +982,9 @@
 			baseConfigurationReference = 19DA6C1559659417BEB77278 /* Pods-MemoryGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFU744LYN;
 				INFOPLIST_FILE = MemoryGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1072,8 +1001,9 @@
 			baseConfigurationReference = 6DBA3EB2177595E432F077D0 /* Pods-MemoryGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFU744LYN;
 				INFOPLIST_FILE = MemoryGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

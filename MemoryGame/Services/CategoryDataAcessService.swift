@@ -82,7 +82,7 @@ class CategoryDataAcessService {
     }
     
     func addCategory() -> Category{
-        var newCategory = Category()
+        let newCategory = Category()
         
         newCategory.name = self.newCategoryName()
         newCategory.isDefault = false

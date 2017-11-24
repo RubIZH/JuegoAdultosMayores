@@ -59,11 +59,11 @@ class CategoryTableViewController: UITableViewController {
         let indexPath = tableView.indexPathForSelectedRow
         
         if segue.identifier == "detail"{
-            var view = segue.destination as! CategoryDetailCollectionViewController
+            let view = segue.destination as! CategoryDetailCollectionViewController
             view.category = categories[(indexPath?.row)!]
         }else if segue.identifier == "add"{
-            var newCategory = CategoryDataAcessService.sharedInstance.addCategory()
-            var view = segue.destination as! CategoryDetailCollectionViewController
+            let newCategory = CategoryDataAcessService.sharedInstance.addCategory()
+            let view = segue.destination as! CategoryDetailCollectionViewController
             view.category = newCategory
         }
     }
