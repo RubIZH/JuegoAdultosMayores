@@ -15,10 +15,7 @@ import UPCarouselFlowLayout
 class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     let realm = try! Realm()
-    
-    let vegetables = ["beet.jpg","brocolli.jpg","cawllioflower.jpg","celery.jpg","corn.jpg","onion.jpg","pepper.jpg","sparragus.jpg","peas.jpg"]
-    
-    let fruits = ["banana.jpg","grapes.jpg","kiwi.jpg","peach.jpg","pineapple.jpg","strawberry.jpg","watermelon.jpg"]
+
     
     
     
@@ -62,6 +59,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
     }
     
+
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return .lightContent
     }

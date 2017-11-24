@@ -26,6 +26,21 @@ class ImagesCollectionViewController: UICollectionViewController, UICollectionVi
     @IBAction func pauseButton(_ sender: Any) {
         self.showPauseDialog()
     }
+    @IBAction func exitButton(_ sender: Any) {
+        
+        let title = "¿Deseas salir?"
+        let popup = PopupDialog(title: title, message: nil, buttonAlignment: .vertical, transitionStyle: .bounceDown, gestureDismissal: true) {
+        }
+        let buttonOne = CancelButton(title: "Salir") {
+            self.exit()
+        }
+        let buttonTwo = DefaultButton(title: "Continuar") {
+        }
+        popup.addButtons([buttonOne, buttonTwo])
+        
+        self.present(popup, animated: true, completion: nil)
+        
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,7 +105,33 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
         let totalCellWidth = cellSize * CGFloat (picturesAcross)
         let sideMarginSize = (self.view.bounds.size.width - totalCellWidth) / 2
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        layout.sectionInset = UIEdgeInsets(top: self.view.bounds.size.width * 0.25,
+        
+        var numberOfPicturesForDisplay = 0
+        
+        switch gameMode{
+            case 1: numberOfPicturesForDisplay = Minigame_Mode1.sharedInstance.settings.numberOfPicturesForDisplay
+                break
+            case 2: numberOfPicturesForDisplay = Minigame_Mode2.sharedInstance.settings.numberOfPicturesForDisplay
+                break
+            default: print("Loading settings wasn't possible")
+        }
+        
+        var totalCellHeight : CGFloat = 0
+        
+        switch numberOfPicturesForDisplay{
+            case 4: totalCellHeight = cellSize * 2
+            case 6: totalCellHeight = cellSize * 3
+            case 12: totalCellHeight = cellSize * 4
+            default: print("Loading settings wasn't possible")
+        }
+        
+        let viewHeight = self.view.bounds.size.height - (UIApplication.shared.statusBarFrame.height +
+            self.navigationController!.navigationBar.frame.height)
+        
+        let offsetTop = (viewHeight - totalCellHeight) / 2
+
+        
+        layout.sectionInset = UIEdgeInsets(top: offsetTop * 0.90,
                                            left: sideMarginSize-10,
                                            bottom: 0,
                                            right: sideMarginSize-10)
