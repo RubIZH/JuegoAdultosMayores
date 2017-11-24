@@ -138,7 +138,7 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
         let offsetTop = (viewHeight - totalCellHeight) / 2
 
         
-        layout.sectionInset = UIEdgeInsets(top: offsetTop * 0.90,
+        layout.sectionInset = UIEdgeInsets(top: offsetTop * 0.85,
                                            left: sideMarginSize-10,
                                            bottom: 0,
                                            right: sideMarginSize-10)

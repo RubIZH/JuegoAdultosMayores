@@ -37,7 +37,7 @@ class DataLoader{
         category5.name = "Paisajes"
         category6.name = "Platillos"
         
-        for index in 1 ... 6{
+        for index in 1 ... 16{
             
             let picture = Picture()
             picture.canBeDeleted = false
@@ -52,7 +52,7 @@ class DataLoader{
             
         }
         
-        for index in 1 ... 6{
+        for index in 1 ... 11{
             
             let picture = Picture()
             picture.canBeDeleted = false
@@ -67,7 +67,7 @@ class DataLoader{
             
         }
         
-        for index in 1 ... 6{
+        for index in 1 ... 16{
             
             let picture = Picture()
             picture.canBeDeleted = false
@@ -82,7 +82,7 @@ class DataLoader{
             
         }
         
-        for index in 1 ... 6{
+        for index in 1 ... 16{
             
             let picture = Picture()
             picture.canBeDeleted = false
@@ -97,7 +97,7 @@ class DataLoader{
             
         }
         
-        for index in 1 ... 6{
+        for index in 1 ... 16{
             
             let picture = Picture()
             picture.canBeDeleted = false
@@ -112,7 +112,7 @@ class DataLoader{
             
         }
         
-        for index in 1 ... 6{
+        for index in 1 ... 16{
             
             let picture = Picture()
             picture.canBeDeleted = false
