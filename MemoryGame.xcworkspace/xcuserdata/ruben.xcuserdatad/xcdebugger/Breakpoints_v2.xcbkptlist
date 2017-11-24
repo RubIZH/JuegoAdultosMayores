@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MemoryGame/View Controllers/MainScreen/ViewController.swift"
-            timestampString = "533177140.706025"
+            timestampString = "533186807.366944"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "8"
@@ -138,12 +138,12 @@
                   moduleName = "MemoryGame"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ruben/Documents/Ago-Dic%20Mty%202017/DIspositivos%20Mo%CC%81viles/ProyectoFinal/App/MemoryGame_1.5/MemoryGame/View%20Controllers/MainScreen/ViewController.swift"
-                  timestampString = "532603821.896633"
+                  timestampString = "533185871.233253"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "4">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -153,12 +153,12 @@
                   moduleName = "MemoryGame"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ruben/Documents/Ago-Dic%20Mty%202017/DIspositivos%20Mo%CC%81viles/ProyectoFinal/App/MemoryGame_1.5/MemoryGame/View%20Controllers/MainScreen/ViewController.swift"
-                  timestampString = "532603821.898157"
+                  timestampString = "533185871.239802"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "12">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -168,12 +168,12 @@
                   moduleName = "MemoryGame"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ruben/Documents/Ago-Dic%20Mty%202017/DIspositivos%20Mo%CC%81viles/ProyectoFinal/App/MemoryGame_1.5/MemoryGame/View%20Controllers/MainScreen/ViewController.swift"
-                  timestampString = "532603821.899539"
+                  timestampString = "533185871.243274"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
                   endingLineNumber = "17"
-                  offsetFromSymbolStart = "56">
+                  offsetFromSymbolStart = "54">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -183,12 +183,12 @@
                   moduleName = "MemoryGame"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ruben/Documents/Ago-Dic%20Mty%202017/DIspositivos%20Mo%CC%81viles/ProyectoFinal/App/MemoryGame_1.5/MemoryGame/View%20Controllers/MainScreen/ViewController.swift"
-                  timestampString = "532603821.900921"
+                  timestampString = "533185871.246864"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
                   endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
+                  offsetFromSymbolStart = "4">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -198,14 +198,30 @@
                   moduleName = "MemoryGame"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/ruben/Documents/Ago-Dic%20Mty%202017/DIspositivos%20Mo%CC%81viles/ProyectoFinal/App/MemoryGame_1.5/MemoryGame/View%20Controllers/MainScreen/ViewController.swift"
-                  timestampString = "532603821.902216"
+                  timestampString = "533185871.25039"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "17"
                   endingLineNumber = "17"
-                  offsetFromSymbolStart = "32">
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MemoryGame/View Controllers/MainScreen/ViewController.swift"
+            timestampString = "533186807.367481"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "numberOfSections(in:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -11,10 +11,9 @@ import UIKit
 class CarouselCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var customView: UIView!
     
-    @IBOutlet weak var tituloLabel: UILabel!
- 
+    @IBOutlet weak var lbTitle: UILabel!
     
-    @IBOutlet weak var descriptionTextView: UITextView!
+    @IBOutlet weak var textViewDescription: UITextView!
     
     
     static let identifier = "CarouselCollectionViewCell"

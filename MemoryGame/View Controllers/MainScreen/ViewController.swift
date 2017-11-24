@@ -16,10 +16,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     let realm = try! Realm()
 
-    
-    
-    
-    
     @IBOutlet weak var collectionView: UICollectionView!
 
     fileprivate var currentPage: Int = 0
@@ -35,9 +31,6 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         return pageSize
     }
     
-    fileprivate var orientation: UIDeviceOrientation {
-        return UIDevice.current.orientation
-    }
 
     
     override func viewDidLoad() {
@@ -67,6 +60,11 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
     fileprivate func setupLayout() {
         let layout = self.collectionView.collectionViewLayout as! UPCarouselFlowLayout
         layout.spacingMode = UPCarouselFlowLayoutSpacingMode.overlap(visibleOffset: 30)
+        
+        let itemWidth = self.view.bounds.size.width * 0.70
+        let itemHeight = self.view.bounds.size.height * 0.75
+        
+        layout.itemSize=CGSize(width: itemWidth, height: itemHeight)
     }
     
     
@@ -86,17 +84,19 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         cell.contentView.layer.masksToBounds = true;
         
         switch indexPath.row{
-            case 0: cell.tituloLabel.text = "¡Mismas Categorías!"
-                    cell.descriptionTextView.text = "Debes seleccionar todas las imágenes de la categoría que se te indica para que puedas ganar"
+            case 0: cell.lbTitle.text = "¡Mismas\nCategorías!"
+                    cell.textViewDescription.text = "Debes seleccionar todas las imágenes de la categoría que se te indica para que puedas continuar"
                     break
-            case 1:     cell.tituloLabel.text = "¡Forma Parejas!"
-                    cell.descriptionTextView.text = "Deberás formar parejas de imágenes que corresponden a la misma categoría para que puedas ganar la partida"
+            case 1: cell.lbTitle.text = "¡Forma\nParejas!"
+                    cell.textViewDescription.text = "Deberás formar parejas de imágenes que corresponden a la misma categoría para que puedas terminar la partida"
                     break
             default: print("Error al seleccionar modo de juego")
         }
         
         return cell
     }
+    
+
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         switch indexPath.row{
