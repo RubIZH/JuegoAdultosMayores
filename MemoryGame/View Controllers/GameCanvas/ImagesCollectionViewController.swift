@@ -194,7 +194,7 @@ extension ImagesCollectionViewController: PeekPopPreviewingDelegate {
             }
         case 2: if Minigame_Mode2.sharedInstance.hasWon {
             showStandardDialog()
-            Minigame_Mode1.sharedInstance.updateGameStats(seconds: TimerService.sharedInstance.timerCounter)
+            Minigame_Mode2.sharedInstance.updateGameStats(seconds: TimerService.sharedInstance.timerCounter)
             }
         default: print ("Loading winning conditions was not possible")
         }

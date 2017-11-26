@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
-    <device id="retina3_5" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -8,13 +8,18 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeueLights.ttc">
+            <string>HelveticaNeue-Light</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Configuración-->
         <scene sceneID="Moe-Nw-F0P">
             <objects>
                 <tableViewController id="WWm-yo-BaS" customClass="SettingsTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ti7-NI-WX1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
@@ -99,7 +104,7 @@
             <objects>
                 <tableViewController id="bGM-ZE-BOF" customClass="MiniGamesTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="qsr-7M-oFy">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -130,7 +135,7 @@
             <objects>
                 <tableViewController id="Zq1-Pn-H5q" customClass="CategoryTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ULb-fH-qmH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -172,7 +177,7 @@
                         <viewControllerLayoutGuide type="bottom" id="s8c-ba-0wK"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3KX-bB-1fd">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de Imágenes:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bc-0b-Kpz">
@@ -221,7 +226,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IdT-0B-Yf1"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="AVl-5y-WbF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hv6-dt-Jrj">
@@ -242,7 +247,7 @@ Treviño.</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="nWy-07-Les">
-                                <rect key="frame" x="26" y="262" width="268" height="85"/>
+                                <rect key="frame" x="26" y="262" width="268" height="173"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Minijuegos Cognitivos se distribuye como está de manera gratuita y se prohíbe su
 distribución y uso con fines de lucro.</string>
@@ -316,6 +321,7 @@ distribución y uso con fines de lucro.</string>
                     </tabBar>
                     <connections>
                         <segue destination="lzI-Jc-D8c" kind="relationship" relationship="viewControllers" id="iS3-Wx-Yde"/>
+                        <segue destination="1xb-qR-tDu" kind="relationship" relationship="viewControllers" id="yX5-3N-r5X"/>
                         <segue destination="Tms-9r-SJB" kind="relationship" relationship="viewControllers" id="cKO-Bh-KKZ"/>
                     </connections>
                 </tabBarController>
@@ -328,7 +334,7 @@ distribución y uso con fines de lucro.</string>
             <objects>
                 <collectionViewController id="q7f-9P-dei" customClass="ImagesCollectionViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" contentMode="scaleToFill" scrollEnabled="NO" delaysContentTouches="NO" dataMode="prototypes" id="63F-X9-h7q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="27" minimumInteritemSpacing="0.0" id="iax-F2-puX">
@@ -378,7 +384,7 @@ distribución y uso con fines de lucro.</string>
                         <viewControllerLayoutGuide type="bottom" id="xxN-oT-EOf"/>
                     </layoutGuides>
                     <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ieA-va-7dT">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -418,7 +424,7 @@ distribución y uso con fines de lucro.</string>
             <objects>
                 <tableViewController id="M0w-Si-qA1" customClass="MinigameDetailTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0We-sg-77q">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -447,7 +453,7 @@ distribución y uso con fines de lucro.</string>
             <objects>
                 <collectionViewController id="yTh-ZB-3eq" customClass="CategoryDetailCollectionViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="vjA-7Q-lzr">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="367"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="6" minimumInteritemSpacing="6" id="mAA-ev-fO7">
@@ -547,11 +553,11 @@ distribución y uso con fines de lucro.</string>
                         <viewControllerLayoutGuide type="bottom" id="gh0-mH-wN3"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2kh-Nr-8Tx" customClass="GradientView" customModule="MemoryGame" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" prefetchingEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Ad-ED-lIw">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="431"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="0.98154796850000003" blue="0.96438705759999999" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="H4J-dg-9AE" customClass="UPCarouselFlowLayout" customModule="MemoryGame" customModuleProvider="target">
@@ -570,7 +576,7 @@ distribución y uso con fines de lucro.</string>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarouselCollectionViewCell" id="mVq-Rl-JRF" customClass="CarouselCollectionViewCell" customModule="MemoryGame" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="-80.5" width="300" height="592"/>
+                                        <rect key="frame" x="0.0" y="-36.5" width="300" height="592"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="300" height="592"/>
@@ -645,11 +651,172 @@ distribución y uso con fines de lucro.</string>
             </objects>
             <point key="canvasLocation" x="1048" y="-334"/>
         </scene>
+        <!--Root View Controller-->
+        <scene sceneID="czb-Xj-uyz">
+            <objects>
+                <tableViewController id="Thc-Tt-waQ" customClass="StatisticsMinigameSelectionTableViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Rdy-kM-M0N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="YI3-Ot-KK9">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YI3-Ot-KK9" id="BFc-Ud-hfv">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="bO9-6s-wxO" kind="show" identifier="detail" id="ITw-96-pLf">
+                                        <nil key="action"/>
+                                    </segue>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Thc-Tt-waQ" id="gQJ-cB-kWv"/>
+                            <outlet property="delegate" destination="Thc-Tt-waQ" id="orr-es-mR4"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="ZPt-aM-FYb"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AAa-ig-Daq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2143" y="-1429"/>
+        </scene>
+        <!--Statistics Detail View Controller-->
+        <scene sceneID="Vuz-Ng-ctk">
+            <objects>
+                <viewController id="bO9-6s-wxO" customClass="StatisticsDetailViewController" customModule="MemoryGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1RS-vy-kqZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="6ms-i5-vmP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k0v-6Y-YfW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wq1-c6-goS">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="455"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLr-dp-HYM">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="adw-2r-h7K">
+                                                <rect key="frame" x="0.0" y="50" width="320" height="345"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Total de Partidas Jugadas:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w6A-jd-ENp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="320" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="21" id="Q2g-sU-ClG"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9GR-9x-CyE">
+                                                        <rect key="frame" x="0.0" y="21" width="320" height="94"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="80"/>
+                                                        <color key="textColor" red="0.27058823529999998" green="0.1529411765" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo Total de Juego:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgB-D8-LF1">
+                                                        <rect key="frame" x="0.0" y="115" width="320" height="20"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hBW-j8-O7a">
+                                                        <rect key="frame" x="0.0" y="135" width="320" height="94"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="80"/>
+                                                        <color key="textColor" red="0.27058823529999998" green="0.1529411765" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tiempo Promedio por Partida:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4SP-BZ-7PX">
+                                                        <rect key="frame" x="0.0" y="229" width="320" height="20"/>
+                                                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                                        <color key="textColor" red="0.43529412150000002" green="0.4431372583" blue="0.47450980539999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwv-xA-PoJ">
+                                                        <rect key="frame" x="0.0" y="249" width="320" height="96"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="80"/>
+                                                        <color key="textColor" red="0.27058823529999998" green="0.1529411765" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="4SP-BZ-7PX" firstAttribute="top" secondItem="cgB-D8-LF1" secondAttribute="bottom" constant="94" id="2o7-kw-Yeb"/>
+                                                    <constraint firstItem="Fwv-xA-PoJ" firstAttribute="top" secondItem="hBW-j8-O7a" secondAttribute="bottom" constant="20" id="diD-n6-tYM"/>
+                                                    <constraint firstItem="cgB-D8-LF1" firstAttribute="top" secondItem="w6A-jd-ENp" secondAttribute="bottom" constant="94" id="f0x-Sr-f51"/>
+                                                    <constraint firstItem="hBW-j8-O7a" firstAttribute="top" secondItem="9GR-9x-CyE" secondAttribute="bottom" constant="20" id="f8y-da-XNF"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="adw-2r-h7K" firstAttribute="width" secondItem="fLr-dp-HYM" secondAttribute="width" id="1x4-3g-zxp"/>
+                                            <constraint firstAttribute="height" constant="429" id="Apo-ZO-OoC"/>
+                                            <constraint firstItem="adw-2r-h7K" firstAttribute="leading" secondItem="fLr-dp-HYM" secondAttribute="leading" id="LRz-2z-IvF"/>
+                                            <constraint firstAttribute="bottom" secondItem="adw-2r-h7K" secondAttribute="bottom" constant="34" id="RfM-j1-flH"/>
+                                            <constraint firstItem="adw-2r-h7K" firstAttribute="top" secondItem="fLr-dp-HYM" secondAttribute="top" constant="50" id="nJT-cE-YKD"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="fLr-dp-HYM" firstAttribute="top" secondItem="wq1-c6-goS" secondAttribute="top" id="25f-Pv-o0T"/>
+                                    <constraint firstAttribute="bottom" secondItem="fLr-dp-HYM" secondAttribute="bottom" constant="-62" id="8II-GZ-4aI"/>
+                                    <constraint firstAttribute="trailing" secondItem="fLr-dp-HYM" secondAttribute="trailing" id="Gwk-Bi-I4X"/>
+                                    <constraint firstItem="fLr-dp-HYM" firstAttribute="leading" secondItem="wq1-c6-goS" secondAttribute="leading" id="Xcr-C7-2WG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wq1-c6-goS" firstAttribute="leading" secondItem="k0v-6Y-YfW" secondAttribute="leading" id="0nX-zZ-w9M"/>
+                            <constraint firstItem="wq1-c6-goS" firstAttribute="top" secondItem="1RS-vy-kqZ" secondAttribute="bottom" id="Sof-cc-61Z"/>
+                            <constraint firstItem="6ms-i5-vmP" firstAttribute="top" secondItem="wq1-c6-goS" secondAttribute="bottom" id="b4d-TH-IqM"/>
+                            <constraint firstItem="fLr-dp-HYM" firstAttribute="width" secondItem="k0v-6Y-YfW" secondAttribute="width" id="fV5-O7-zTS"/>
+                            <constraint firstAttribute="trailing" secondItem="wq1-c6-goS" secondAttribute="trailing" id="zIE-7G-gpU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="averageTimeLabel" destination="Fwv-xA-PoJ" id="Wuz-7M-8cX"/>
+                        <outlet property="containerView" destination="fLr-dp-HYM" id="SQD-a8-ulZ"/>
+                        <outlet property="scrollView" destination="wq1-c6-goS" id="E8b-uz-7v3"/>
+                        <outlet property="totalGameTimeLabel" destination="hBW-j8-O7a" id="nnP-i3-4me"/>
+                        <outlet property="totalGamesLabel" destination="9GR-9x-CyE" id="QNF-08-owe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xgX-S2-8Sf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3163" y="-1429"/>
+        </scene>
+        <!--Estadísticas-->
+        <scene sceneID="oYc-cJ-Rig">
+            <objects>
+                <navigationController id="1xb-qR-tDu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Estadísticas" image="Statistics" id="Cqu-4M-qDP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" translucent="NO" id="Nj1-Yl-PTw">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Thc-Tt-waQ" kind="relationship" relationship="rootViewController" id="Tvw-n8-h8W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u2C-99-DRg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1046" y="-1429"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Attention" width="30" height="30"/>
         <image name="Principal" width="30" height="30"/>
         <image name="Settings" width="30" height="30"/>
+        <image name="Statistics" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="N7t-Fl-HPy"/>

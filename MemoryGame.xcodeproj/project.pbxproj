@@ -19,6 +19,8 @@
 		455642131FB53CE6005765D2 /* MinigameDataAcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455642121FB53CE6005765D2 /* MinigameDataAcessService.swift */; };
 		455642171FB7962D005765D2 /* MinigameDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455642161FB7962D005765D2 /* MinigameDetailTableViewController.swift */; };
 		4580ABC91F9D820300E35B75 /* Pods_MemoryGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4580ABCA1F9D820300E35B75 /* Pods_MemoryGame.framework */; };
+		458CD7341FCB85E200DBAE2D /* StatisticsMinigameSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CD7331FCB85E200DBAE2D /* StatisticsMinigameSelectionTableViewController.swift */; };
+		458CD7361FCB860600DBAE2D /* StatisticsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 458CD7351FCB860600DBAE2D /* StatisticsDetailViewController.swift */; };
 		45A2BCC01FC7E9C300C672CB /* TimerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A2BCBF1FC7E9C300C672CB /* TimerService.swift */; };
 		45D668171F9EB73600FE3D95 /* GameMasterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D668161F9EB73600FE3D95 /* GameMasterService.swift */; };
 		45D668191F9EF0B400FE3D95 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D668181F9EF0B400FE3D95 /* Answer.swift */; };
@@ -154,6 +156,8 @@
 		455642161FB7962D005765D2 /* MinigameDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinigameDetailTableViewController.swift; sourceTree = "<group>"; };
 		4580ABCA1F9D820300E35B75 /* Pods_MemoryGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MemoryGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4580ABCC1F9D820600E35B75 /* PeekPop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PeekPop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		458CD7331FCB85E200DBAE2D /* StatisticsMinigameSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsMinigameSelectionTableViewController.swift; sourceTree = "<group>"; };
+		458CD7351FCB860600DBAE2D /* StatisticsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDetailViewController.swift; sourceTree = "<group>"; };
 		45A2BCBF1FC7E9C300C672CB /* TimerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerService.swift; sourceTree = "<group>"; };
 		45D668161F9EB73600FE3D95 /* GameMasterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMasterService.swift; sourceTree = "<group>"; };
 		45D668181F9EF0B400FE3D95 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
@@ -321,6 +325,15 @@
 				45A2BCBF1FC7E9C300C672CB /* TimerService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		458CD7321FCB85B700DBAE2D /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				458CD7331FCB85E200DBAE2D /* StatisticsMinigameSelectionTableViewController.swift */,
+				458CD7351FCB860600DBAE2D /* StatisticsDetailViewController.swift */,
+			);
+			path = Statistics;
 			sourceTree = "<group>";
 		};
 		45D84B851FAFA70D0016592D /* GameCanvas */ = {
@@ -566,6 +579,7 @@
 		45F57FBB1F9D7751009AAECB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				458CD7321FCB85B700DBAE2D /* Statistics */,
 				45DFD27E1FBEA98E0095E97A /* MainScreen */,
 				45D84B861FAFA71E0016592D /* Settings-Categories */,
 				45D84B851FAFA70D0016592D /* GameCanvas */,
@@ -822,6 +836,7 @@
 				45F57FA81F9D72BB009AAECB /* AppDelegate.swift in Sources */,
 				45D6681D1F9FD84100FE3D95 /* Extensions.swift in Sources */,
 				45DFD29A1FBEBE030095E97A /* UPCarouselFlowLayout.swift in Sources */,
+				458CD7341FCB85E200DBAE2D /* StatisticsMinigameSelectionTableViewController.swift in Sources */,
 				455642111FB53C84005765D2 /* MiniGamesTableViewController.swift in Sources */,
 				455642131FB53CE6005765D2 /* MinigameDataAcessService.swift in Sources */,
 				45A2BCC01FC7E9C300C672CB /* TimerService.swift in Sources */,
@@ -842,6 +857,7 @@
 				4544D3CC1FB0C4C5007881A4 /* HeaderCollectionReusableView.swift in Sources */,
 				45473C531FBEF9A200C53EB1 /* DataLoader.swift in Sources */,
 				45D6681B1F9FB62800FE3D95 /* Minigame_Mode1.swift in Sources */,
+				458CD7361FCB860600DBAE2D /* StatisticsDetailViewController.swift in Sources */,
 				45DFD27C1FBE87680095E97A /* SettingsTableViewController.swift in Sources */,
 				45473C551FBF02E900C53EB1 /* GeneralSettingsViewController.swift in Sources */,
 				4544D3D01FB0C4FC007881A4 /* CategoryDetailCollectionViewController.swift in Sources */,
